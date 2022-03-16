@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-variancewd",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Calculate the variance of a strided array using Welford's algorithm.",
   "license": "Apache-2.0",
   "author": {
