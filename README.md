@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.variancewd;
+})();
 })();
 </script>
 ```
@@ -216,6 +218,7 @@ var v = variancewd.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-variancewd@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -229,6 +232,7 @@ console.log( x );
 var v = variancewd( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -344,7 +348,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats-base-svariancewd/tree/umd
+[@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats-base-svariancewd/tree/umd/tree/umd
 
 [@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
 
@@ -352,13 +356,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dvariancewd]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/umd
+[@stdlib/stats/base/dvariancewd]: https://github.com/stdlib-js/stats-base-dvariancewd/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanvariancewd]: https://github.com/stdlib-js/stats-base-nanvariancewd/tree/umd
+[@stdlib/stats/base/nanvariancewd]: https://github.com/stdlib-js/stats-base-nanvariancewd/tree/umd/tree/umd
 
-[@stdlib/stats/base/stdevwd]: https://github.com/stdlib-js/stats-base-stdevwd/tree/umd
+[@stdlib/stats/base/stdevwd]: https://github.com/stdlib-js/stats-base-stdevwd/tree/umd/tree/umd
 
-[@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats-base-variance/tree/umd
+[@stdlib/stats/base/variance]: https://github.com/stdlib-js/stats-base-variance/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
