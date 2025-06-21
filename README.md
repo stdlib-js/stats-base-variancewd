@@ -215,7 +215,7 @@ var v = variancewd.ndarray( N, 1, x, 2, 1 );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   If `N - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment), both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dvariancewd`][@stdlib/stats/strided/dvariancewd], [`svariancewd`][@stdlib/stats/base/svariancewd], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dvariancewd`][@stdlib/stats/strided/dvariancewd], [`svariancewd`][@stdlib/stats/strided/svariancewd], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -358,7 +358,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/stats/base/svariancewd]: https://github.com/stdlib-js/stats-base-svariancewd
+[@stdlib/stats/strided/svariancewd]: https://github.com/stdlib-js/stats-strided-svariancewd
 
 [@welford:1962a]: https://doi.org/10.1080/00401706.1962.10490022
 
